@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&confirm=7LWH&id=1FpwJD1RAiyRzTI8L_KzLRUFZRZ1TyF-s'
+export_file_url = 'https://nkingstorage.blob.core.windows.net/shared-files/export.pkl?sv=2019-02-02&st=2020-08-14T10%3A37%3A51Z&se=2021-08-15T10%3A37%3A00Z&sr=b&sp=r&sig=oZF%2Be1OtN5kzIFg0Twh6W2WJ6ELgrGSToaFOI7GOLd4%3D'
 export_file_name = 'export.pkl'
 
 classes = ['bassoon', 'cello', 'clarinet', 'cymbals', 'doublebass', 'drums', 'euphonium', 'flute', 'frenchhorn', 'gong', 'guitar', 'harp', 'keyboard', 'oboe', 'piano', 'saxophone', 'tambourine', 'triangle', 'trombone', 'trumpet', 'tuba', 'viola', 'violin', 'xylophone']
